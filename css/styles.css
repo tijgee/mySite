@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'MonteCarlo', cursive;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top{
+    background-color: #C2FFD9;
+    padding: 20px;
+    position: relative;
+    padding-top: 100px;
+    line-height: 2.5;
+}
+
+.middle{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 20px;
+    border-style: solid;
+    margin-left: 260px;
+}
+
+.bottom{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 10px;
+    border-style: solid;
+    margin-left: 500px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+.topCloud{
+    position: relative;
+    left: 250px;
+    top: 25px;
+}
+.bottomCloud{
+    position: absolute;
+}
+
+
+
+
+
+
