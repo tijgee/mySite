@@ -2,44 +2,108 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 
 h1{
+    font-size: 5.625rem;
+    margin-top: 50px auto 0 auto;
     font-family: 'MonteCarlo', cursive;
+    color: #66BFBF;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3{
+    color: #5cc1d3;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: em;
 }
+
+hr{
+    border: 5px dotted #f3f2f5;
+    border-bottom: none;
+    width: 25%;
+    margin: 100px auto;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.top p {
+    width: 175px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    
+    animation: 
+      typing 1s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 8% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
 
 .top{
     background-color: #C2FFD9;
     padding: 20px;
     position: relative;
     padding-top: 100px;
-    line-height: 2.5;
+    line-height: 1.25;
+    background-image: url("comp.jpg");
+    height: 750px;
+    
 }
 
-.middle{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    border: 20px;
-    border-style: solid;
-    margin-left: 260px;
+.top p{
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
-.bottom{
-    width: 200px;
+.top h1, p{
+    margin-top: 100px;;
+}
+
+.middle-container{
+    margin: 100px 0;
+    line-height: 2;
+    
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 50px;
     height: 200px;
-    background-color: yellow;
-    border: 10px;
-    border-style: solid;
-    margin-left: 500px;
+}
+
+.bottom-container a{
+    color: #11999E;
+    position: relative;
+    top: 50px;
+}
+
+.bottom-container p{
+    color: #EAF6F6;
+    position: relative;
+    bottom: 10px;
 }
 
 .pro{
@@ -52,6 +116,26 @@ h3{
 }
 .bottomCloud{
     position: absolute;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 30px
+}
+
+.computerDo{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gamer{
+    float: right;
+    width: 25%;
+    margin-left: 30px;
 }
 
 
