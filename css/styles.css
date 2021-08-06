@@ -16,7 +16,8 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    font-weight: normal;
+    font-weight: bold;
+    color:#80b5ea
 }
 
 h3{
@@ -103,12 +104,13 @@ hr{
 }
 
 .bottom-container a{
-    color: #1145ee;
+    color: #5a73be;
     position: relative;
     top: 50px;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
+    font-weight: bold;
 }
 a:hover{
     color: #EAF6F6;
