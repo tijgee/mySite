@@ -38,6 +38,11 @@ hr{
     margin: auto;
 }
 
+.contactMessage{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
 .top p {
     width: 175px;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -85,27 +90,34 @@ hr{
 }
 
 .middle-container{
-    margin: 100px 0;
+    
     line-height: 2;
+    background-color:hsl(0, 0%, 100%);
     
 }
 
 .bottom-container{
     background-color: #66BFBF;
-    margin-top: 50px;
+    
     height: 200px;
 }
 
 .bottom-container a{
-    color: #11999E;
+    color: #1145ee;
     position: relative;
     top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
 }
 
 .bottom-container p{
     color: #EAF6F6;
     position: relative;
-    bottom: 10px;
+    padding: 20px 0;
 }
 
 .pro{
@@ -140,6 +152,32 @@ hr{
     margin-left: 30px;
 }
 
+.myButton {
+    margin-bottom: 30px;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+    
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 
 
